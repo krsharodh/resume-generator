@@ -1,10 +1,14 @@
 import React from 'react';
 import './App.css';
+import Button from './button/button'
 
 function App() {
   return (
     <div className="App">
-      <h1>Resume Generator</h1>
+      <div className="main-container">
+        <h1>Resume Generator</h1>
+        <Button name={'Create Resume'}></Button>
+      </div>
     </div>
   );
 }
